@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+<script>
+//Day1 Manjeri Intro to JavaScript
+</script>
+
+<!--Bulb on/off-->
+
+<button onclick="document.getElementById('myImage').src='bulb_on.jpeg'">Turn on the light</button>
+<img id="myImage" src="bulb_off.jpeg" style="width:100px">
+<button onclick="document.getElementById('myImage').src='bulb_off.jpeg'">Turn off the light</button>
+
+<!--Calling External JavaScript function-->
+
+<script src="myScript.js"></script>
+<p id="exdemo">Calling External JavaScript Function</p>
+<button type="button" onclick="ExFun()">Click me !!!</button>
+
+<!--output methods-->
+<script>
+
+//Method 1: using innerHTML
+// <p id="add"></p>
+// document.getElementById("add").innerHTML = 5 + 6;
+
+//Method 2: using document.write
+// document.write(5 + 6);
+
+//Method 3: using window.alert
+//window.alert(5 + 6);
+
+//Method 4: using console.log
+//console.log(5 + 6);
+
+</script>
+
+<!--To print the current page-->
+<button onclick="window.print()">Print this page</button>
+
+</body>
+</html>
